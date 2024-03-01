@@ -1,0 +1,27 @@
+---
+const platform = "github";
+const username = "withastro";
+import Social from './Social.astro';
+---
+
+<footer>
+    <Social platform="twitter" username="astrodotbuild" />
+    <Social platform="github" username="withastro" />
+    <Social platform="youtube" username="astrodotbuild" />
+</footer>
+
+
+<style>
+    a {
+      padding: 0.5rem 1rem;
+      color: white;
+      background-color: #4c1d95;
+      text-decoration: none;
+    }
+    
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  </style>
